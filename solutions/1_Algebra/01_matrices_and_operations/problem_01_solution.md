@@ -1,41 +1,60 @@
-# Exercise 1. Matrix Size and Entries (Solution)
+## Exercise 1. Matrix Size and Entries
 
-### Given Matrices
 
-$$
-A = \begin{pmatrix}
-2 & -1 & 3 \\
-0 & 4 & 5
-\end{pmatrix}, \quad
-B = \begin{pmatrix}
-1 & 0 \\
--2 & 3 \\
-4 & 1
-\end{pmatrix}
-$$
 
----
+### Problem Statement
 
-### 1. State the sizes of matrices $A$ and $B$
 
-* **Matrix $A$:** Has $2$ rows and $3$ columns, so its size is **$2 \times 3$**.
-* **Matrix $B$:** Has $3$ rows and $2$ columns, so its size is **$3 \times 2$**.
 
----
+Given the matrices:
 
-### 2. Read off the entries $a_{12}$, $a_{23}$, $b_{21}$, and $b_{32}$
+A = ((2, -1, 3), (0, 4, 5)),    B = ((1, 0), (-2, 3), (4, 1))
 
-* **$a_{12}$** (row 1, column 2 of $A$): **$-1$**
-* **$a_{23}$** (row 2, column 3 of $A$): **$5$**
-* **$b_{21}$** (row 2, column 1 of $B$): **$-2$**
-* **$b_{32}$** (row 3, column 2 of $B$): **$1$**
+1. State the sizes of matrices A and B.
+
+
+2. Read off the entries a_12, a_23, b_21, and b_32.
+
+
+3. Write the second row of A and the first column of B as vectors.
+
+
 
 ---
 
-### 3. Write the second row of $A$ and the first column of $B$ as vectors
+### Solution
 
-* **Second row of $A$** (as a row vector):
-  $$r_2(A) = \begin{pmatrix} 0 & 4 & 5 \end{pmatrix}$$
 
-* **First column of $B$** (as a column vector):
-  $$c_1(B) = \begin{pmatrix} 1 \\ -2 \\ 4 \end{pmatrix}$$
+
+#### 1. Sizes of Matrices A and B
+
+
+
+The size of a matrix is expressed as m x n, where m represents the number of rows and n represents the number of columns.
+
+* **Matrix A:** Counting the rows and columns, matrix A has 2 rows and 3 columns. Therefore, the size of A is 2 x 3.
+* **Matrix B:** Counting the rows and columns, matrix B has 3 rows and 2 columns. Therefore, the size of B is 3 x 2.
+
+---
+
+#### 2. Specific Entries
+
+
+
+An entry a_ij denotes the element located in the i-th row and j-th column of matrix A (and similarly for b_ij in matrix B).
+
+* **a_12:** Located in the 1st row and 2nd column of matrix A, which is **-1**.
+* **a_23:** Located in the 2nd row and 3rd column of matrix A, which is **5**.
+* **b_21:** Located in the 2nd row and 1st column of matrix B, which is **-2**.
+* **b_32:** Located in the 3rd row and 2nd column of matrix B, which is **1**.
+
+---
+
+#### 3. Rows and Columns as Vectors
+
+
+
+* **Second row of A:** Extracting the elements from the second row of matrix A, we get the row vector:
+(0, 4, 5)
+* **First column of B:** Extracting the elements from the first column of matrix B, we get the column vector:
+[1, -2, 4] (represented vertically as a column vector)
