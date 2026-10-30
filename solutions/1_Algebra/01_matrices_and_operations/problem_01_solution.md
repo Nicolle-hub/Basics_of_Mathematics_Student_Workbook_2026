@@ -8,7 +8,17 @@
 
 Given the matrices:
 
-A = ((2, -1, 3), (0, 4, 5)),    B = ((1, 0), (-2, 3), (4, 1))
+$$
+A = 
+\begin{pmatrix}
+2 & -1& 3\\0& 4& 5
+\end{pmatrix}
+$$
+
+$$
+B =\begin{pmatrix} 1 & 0 \\-2 & 3\\4 & 1
+   \end{pmatrix}
+$$
 
 1. State the sizes of matrices A and B.
 
